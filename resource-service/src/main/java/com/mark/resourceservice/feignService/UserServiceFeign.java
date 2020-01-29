@@ -15,7 +15,7 @@ public interface UserServiceFeign {
     @PostMapping(value = "/api/saveUpdate")
     UserDetailsDTO saveUpdate(@RequestBody UserDetailsDTO inputUser);
 
-    @GetMapping(value = "/api/apiById/{id}")
+    @GetMapping(value = "/api/getById/{id}")
     UserDetailsDTO getUserById(@PathVariable Long id);
 
     @GetMapping(value = "/api/getByName/{name}")
