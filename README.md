@@ -37,5 +37,12 @@ Open [http://localhost:8661/](http://localhost:8661/) on your local machine to s
 
 Now test the endpoints in postman
     
-    post : http://localhost:8662/resource/api/saveUpdate
+    post         : http://localhost:8662/resource/api/saveUpdate
+    
+    request body :      {
+	                        "id":"",
+	                        "name":"Mark",
+	                        "age":25
+                         }
+    
     get  : http://localhost:8662/resource/api/getByName/{name}
